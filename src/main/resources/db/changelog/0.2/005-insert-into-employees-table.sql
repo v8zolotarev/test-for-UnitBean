@@ -1,0 +1,1 @@
+INSERT INTO employees (login, password) VALUES ('test_login', 'test_password');

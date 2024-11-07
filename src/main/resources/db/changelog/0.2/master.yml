@@ -1,0 +1,16 @@
+databaseChangeLog:
+  - include:
+      file: 001-insert-intro-authors-table.sql
+      relativeToChangelogFile: true
+  - include:
+      file: 002-insert-into-books-table.sql
+      relativeToChangelogFile: true
+  - include:
+      file: 003-insert-into-readers-table.sql
+      relativeToChangelogFile: true
+  - include:
+      file: 004-insert-intro-transactions-table.sql
+      relativeToChangelogFile: true
+  - include:
+      file: 005-insert-into-employees-table.sql
+      relativeToChangelogFile: true
